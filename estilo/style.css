@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+/*
+Cores #AABAD3
+#F6D8FA
+#FDDBF6
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right,#98b0d6, #f1afe4);
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+
+section#login > div#imagem {
+    display: block;
+    background: #FDDBF6 url(../imagens/pexels-gustavo-crivellari-3608635-5396940.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+div.campo {
+    font-size: 0.8em;
+    background-color: #f1afe4;
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    position: absolute;
+    transform: translateY(13px);
+    padding-left: 6px;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+}
+
+div.campo > i {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 6px;
+}
+
+div.campo > input {
+    font-size: 1em;
+    height: 85%;
+    width: calc(100% - 99px);
+    border-radius: 6px;
+    padding: 4px;
+    transform: translateY(-7px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #98b0d6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.555);
+    margin-top: 10px;
+}
+
+form > input[type=submit]:hover {
+    background-color: #7c90b1;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    background-color: #98b0d6;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.555);
+}
+
+form > a.botao:hover {
+    background-color: #7c90b1;
+}
+
+
+
+
+
+
+
